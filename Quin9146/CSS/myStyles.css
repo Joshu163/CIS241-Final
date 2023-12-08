@@ -1,0 +1,236 @@
+/** STYLE SHEET FOR (personal website) */
+
+
+body {
+	margin:10px;
+	background-color:white;
+	display:flex;
+	flex-direction:column;
+	
+}
+
+#home-nav {
+	background-color:white;
+	align-content:center;
+	flex-direction:row;
+	display:flex;
+	margin-bottom:20px;
+	justify-content:space-between;
+	
+	border-bottom:solid;
+	border-color:#C0BBBB;
+	
+	font-family: arial, times new roman, cambria; 
+	text-decoration:none;
+	
+	
+	
+}
+
+#aboutme-info {
+	
+	font-family: arial, times new roman, cambria; 
+	margin:300;
+}
+
+a:link {
+	
+	text-decoration:none;
+	color:black;
+	
+}
+
+a:visited {
+	color:black;
+	
+}
+a:hover {
+	
+	color:grey;
+}
+
+
+
+
+
+#home-buttons {
+	list-style-type:none;
+	font-size:18px;
+	flex-direction:row;
+	display:flex;
+	gap:15px;
+	align-content:center;
+	flex-wrap:wrap;
+	margin-right:20px;
+	
+}
+
+
+/** Resume CSS Below **/ 
+ 
+ #resume-table 
+ td,
+ Th
+ {
+	 
+	  
+	 text-align:center;
+	 list-style:none;
+	 font-size:19px;
+	 font-family: arial, times new roman, cambria; 
+	 padding:30px;
+	 
+ }
+ 
+.resume-li {
+	
+	list-style:none;
+	margin-right:30px;
+	
+	
+}
+
+
+
+
+
+#jq-logo {
+	padding-left:5px;
+	font-family: arial, times new roman, cambria; 
+}
+
+
+#home-arrow {
+	
+	display:block;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:50px;
+}
+
+
+
+
+#main-message {
+	
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:space-evenly;
+	font-family: arial, times new roman, cambria; 
+	font-size:30px;
+	
+	margin:100px;
+}
+
+#jq11-image {
+	
+	border-radius:15%;
+	
+}
+
+
+
+#aboutme-info {
+	
+	font-family: arial, times new roman, cambria; 
+	font-size:17px;
+	text-align:center;
+	flex-direction:column;
+	display:flex;
+	margin-top:130px;
+	padding:50px;
+	
+
+	
+}
+
+
+
+.all-foots {
+	
+	text-align:center;
+	position:fixed;
+	margin-top:40px;
+	height:50; width:100%;
+	font-size:0.9rem;
+	bottom:0;
+	
+	
+
+}
+
+
+
+
+
+/** Guestbook CSS **/
+
+#guest-form {
+	text-align:center;
+	
+	
+}
+
+/** Interest CSS **/
+
+#interest-1 {
+	
+	font-size:17px;
+	margin:10px;
+	padding-right:900px;
+	font-family: arial, times new roman, cambria;
+	
+}
+
+#interest-2 {
+	
+	font-size:17px;
+	margin:10px;
+	padding-left:700px;
+	font-family: arial, times new roman, cambria;
+	
+	
+}
+
+#interest-3 {
+	
+	font-size:17px;
+	margin:10px;
+	padding-right:800px;
+	font-family: arial, times new roman, cambria;
+	
+	
+	
+}
+
+#youtube-links {
+	
+	display:flex;
+	flex-direction:row;
+	gap:40px;
+	border: 1px solid black;
+	padding:20px;
+	border-radius:10px;
+	background-color:black;
+	font-family: arial, times new roman, cambria;
+	
+}
+
+
+/** Reflections CSS **/
+	#r-main{
+	text-align:center;
+	margin:5 700 5 700;
+	
+}
+/** space **/
+
+.buttons {
+	background-color:#3364C4;
+	color:white;
+	border-radius:10%;
+	
+	
+	
+}

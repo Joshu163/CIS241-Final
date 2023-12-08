@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Web Developer portfolio">
+ <meta name="keywords" content="HTML, CSS, JavaScript">
+<meta name="author" content="Josh Quintero">	
+	
+	
+	<link rel="stylesheet" type="text/css" href="../CSS/myStyles.css">
+	<title>Guest Book</title>
+</head>
+<body>
+
+	<div id="home-nav">
+		<div id="jq-logo">
+	
+		<h1>JQ Web Designs</h1>
+		
+		</div>
+		
+		<ul id="home-buttons">
+		<li>
+			<a href="home.html">HOME</a>
+		</li>
+		<li>
+			<a href="resume.html">RESUME</a>
+		</li>
+		<li>
+			<a href="guestbook.html">GUESTBOOK</a>
+		</li>
+		<li>
+			<a href="interest.html">INTEREST</a>
+		</li>
+		<li>
+			<a href="reflections.html">REFLECTIONS</a>
+		</li>
+		</ul>
+	</div>
+	<br>
+	<br>
+	
+	
+	<div id="guest-form" style="font-family: arial, times new roman, cambria; font-size:17px;">
+	<form
+		method="post"
+		action="http://ss1.ciwcertified.com/cgi-bin/process.pl">
+		
+	Enter your Name: <input type="text" name="name" size="40"/>
+	<br>
+	<br>
+	Enter your E-mail: <input type="text" name="Email" size="40"/>
+	<br>
+	<br>
+	What Country do you live in? <input type="text" name="Country" size="40"/>
+	<br>
+	<br>
+	
+	What is your experience as a Web Developer?
+	<br>
+	<input type="radio" name="None">
+	<label>None</label>
+	<br>
+	
+	<input type="radio" name="Beginner">
+	<label>Beginner</label>
+	<br>
+	
+	<input type="radio" name="intermediate">
+	<label>intermediate</label>
+	<br>
+	
+	<input type="radio" name="Advanced">
+	<label>Advanced</label>
+	
+	
+	<br>
+	<br>
+	Should we add you to our mailing list? <input type="Checkbox" name="mailingList"/>
+	<br>
+	<br>
+	What web technologies are you interested in?(Check all that apply):
+	<br>
+	<br>
+	
+	<select name="interest" multiple="multiple" size="6">
+	<option>HTML</option> 
+	<option>CSS</option> 
+	<option>JavaScript</option> 
+	<option>AJAX</option> 
+	<option>SQL</option> 
+	<option>PHP</option> 
+	</select>
+	
+	<br>
+	<br>
+	
+	How did you find my website? 
+	<br> 
+	<select name="website"> 
+	<option>Select one</option> 
+	<option>I'm a friend</option>
+	<option>A friend directed me to your site</option>
+	<option>School web site</option>
+	<option>A search engine directed me to your site</option>
+	<option>I came across your site by accident</option>
+	<option>Other</option>
+	</select> 
+	
+	<br>
+	<br>
+	
+	Your Website:
+	<br>
+	<input type="text" name="url" value="htpp://">
+	
+	<br>
+	<br>
+	
+	Comments: 
+	<br>
+	<textarea name="comments" cols="50" rows="6">
+	Enter your message here.
+	</textarea>
+	
+	<br>
+	<br>
+	
+	<input type="submit" value="submit" class="buttons">
+	<input type="reset"class="buttons">
+	
+	</div>
+	
+	</form>
+	
+	<footer class="all-foots"> 
+		<p>&copy 2023 Josh Quintero</p>
+	
+	</footer>
+	
+</body>
+</html>
